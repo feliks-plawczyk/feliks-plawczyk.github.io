@@ -7,5 +7,5 @@ Bienvenue sur la documentation de ce projet. Vous trouverez ci-dessous les diff√
 * [Guide d'installation](installation.md)
 
 ## Pages
-* [What is a CVS](CVS.md)
+* [What is a CVS](20261109-vcs.md)
 
