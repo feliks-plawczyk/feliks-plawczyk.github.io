@@ -7,5 +7,5 @@ Bienvenue sur cet embryon de blog
 * Rien pour l'instant sauf...
 
 ## Pages
-* [What is a CVS](20261109-vcs.md)
+* [What is a version control system](20261109-vcs.md)
 
