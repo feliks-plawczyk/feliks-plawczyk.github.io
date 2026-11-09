@@ -1,10 +1,10 @@
-# Mon Projet GitHub Pages
+# Things i want to share, explain, try
 
-Bienvenue sur la documentation de ce projet. Vous trouverez ci-dessous les différents guides et ressources disponibles :
+Bienvenue sur cet embryon de blog
 
 ## Sommaire
 
-* [Guide d'installation](installation.md)
+* Rien pour l'instant sauf...
 
 ## Pages
 * [What is a CVS](20261109-vcs.md)
