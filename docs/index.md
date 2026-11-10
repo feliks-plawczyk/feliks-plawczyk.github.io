@@ -2,13 +2,14 @@
 
 Bienvenue sur cet embryon de blog
 
-## Sommaire
-
-* Rien pour l'instant sauf...
-
 ## Blog
+
 * [What is a version control system](blog/20261109-vcs.md)
 
-## Applications
-* [Mes applications](applications/index.md)
+[Tous les articles →](blog/index.md)
 
+## Applications
+
+* [Compte-Gouttes](applications/index.md) : application Android de suivi de consommation
+
+[Toutes les applications →](applications/index.md)

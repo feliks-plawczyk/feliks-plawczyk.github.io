@@ -76,17 +76,17 @@ T5 et T6 sont indépendantes l'une de l'autre et peuvent se faire dans n'importe
   - Vérification : build sans erreur SCSS ; contrôle visuel à ~1200 px et ~375 px avec `jekyll serve`.
   - Fichiers : `docs/assets/css/style.scss`.
 
-- [ ] **T5 : page `/blog/`**
+- [x] **T5 : page `/blog/`**
   - Acceptation : `docs/blog/index.md` liste les articles existants (pour l'instant « What is a version control system »). L'onglet Blog est actif sur `/blog/` et sur `/blog/20261109-vcs`.
   - Vérification : liens vers l'article fonctionnels ; `aria-current` présent sur le bon onglet.
   - Fichiers : `docs/blog/index.md`.
 
-- [ ] **T6 : page `/about/` (trame)**
+- [x] **T6 : page `/about/` (trame)**
   - Acceptation : `docs/about/index.md` contient la trame de la spec (Qui suis-je, Parcours, Compétences, Ce que j'aime) et la section « Me retrouver » avec les quatre liens (LinkedIn, deux Instagram, GitLab). Les parties à compléter sont repérables (« À compléter »). Aucune information personnelle inventée.
   - Vérification : les quatre URLs correspondent exactement à celles de la spec ; l'onglet À propos est actif.
   - Fichiers : `docs/about/index.md`.
 
-- [ ] **T7 : alléger l'accueil**
+- [x] **T7 : alléger l'accueil**
   - Acceptation : `docs/index.md` ne contient plus « Sommaire » ni « Rien pour l'instant sauf… ». Il garde le titre d'introduction et les sections Blog et Applications, dont les liens passent par les pages `/blog/` et `/applications/`.
   - Vérification : `grep -n "Sommaire\|Rien pour" _site/index.html` ne renvoie rien ; les liens répondent.
   - Fichiers : `docs/index.md`.
