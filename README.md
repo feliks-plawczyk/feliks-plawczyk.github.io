@@ -15,7 +15,7 @@ Le site est publié depuis la branche `main`, dossier `/docs`.
 
 ```bash
 bundle install
-bundle exec jekyll serve --source docs
+script/jekyll serve --source docs
 ```
 
 ## Contribuer

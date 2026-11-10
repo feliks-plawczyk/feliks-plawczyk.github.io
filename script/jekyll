@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Lance Jekyll en local avec la rustine de compatibilité Ruby.
+# Usage : script/jekyll serve --source docs
+#         script/jekyll build --source docs --destination _site
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+RUBYOPT="-r$PWD/script/ruby_compat.rb ${RUBYOPT:-}" exec bundle exec jekyll "$@"

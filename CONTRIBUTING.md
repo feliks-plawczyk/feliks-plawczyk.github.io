@@ -14,12 +14,12 @@ Prérequis : Ruby et Bundler.
 
 ```bash
 bundle install
-bundle exec jekyll serve --source docs
+script/jekyll serve --source docs
 ```
 
 Le site est alors disponible sur <http://localhost:4000>. Vérifiez le rendu avant de pousser.
 
-`--source docs` indique que les pages et `_config.yml` sont dans `docs/`.
+`script/jekyll` lance Jekyll avec une rustine de compatibilité pour Ruby 3.2 et plus (`script/ruby_compat.rb`), nécessaire car `github-pages` repose sur une version ancienne de Liquid. `--source docs` indique que les pages et `_config.yml` sont dans `docs/`.
 
 ## Rédiger un article
 
