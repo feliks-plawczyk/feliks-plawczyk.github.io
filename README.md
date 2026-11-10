@@ -7,7 +7,7 @@ Blog personnel et pages d'applications, publiés avec Jekyll sur GitHub Pages : 
 - `docs/blog/` : articles de blog.
 - `docs/applications/` : descriptions d'applications et politiques de confidentialité.
 - `docs/index.md` : page d'accueil.
-- `docs/_config.yml` : configuration Jekyll (thème `minimal`).
+- `docs/_config.yml` : configuration Jekyll (thème `hacker`, chargé via `remote_theme`).
 
 Le site est publié depuis la branche `main`, dossier `/docs`.
 
