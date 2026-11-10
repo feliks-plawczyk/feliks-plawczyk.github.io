@@ -1,17 +1,17 @@
 ---
 ---
 
-@import "jekyll-theme-hacker";
+@import "jekyll-theme-architect";
 
 // Navigation principale (voir _includes/nav.html).
-// Couleurs reprises du thème hacker : vert $conifer pour l'onglet actif.
+// Elle se trouve dans l'en-tête bleu du thème : liens clairs sur fond bleu.
 header nav.site-nav {
-  margin: 0 0 20px;
+  margin: 20px 0 0;
 
   ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px 24px;
+    gap: 4px 28px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -19,7 +19,6 @@ header nav.site-nav {
 
   li {
     list-style: none;
-    list-style-image: none;
     margin: 0;
     padding: 0;
   }
@@ -27,19 +26,20 @@ header nav.site-nav {
   a {
     display: inline-block;
     padding: 2px 0;
-    border-bottom: 2px solid transparent;
-    font-weight: bold;
+    border-bottom: 3px solid transparent;
+    color: #9ddcff;
+    font-size: 24px;
     text-decoration: none;
 
     &:hover,
     &:focus {
-      border-bottom-color: #63c0f5;
+      color: #fff;
+      border-bottom-color: rgba(255, 255, 255, 0.5);
     }
 
     &[aria-current="page"] {
-      color: $conifer;
-      border-bottom-color: $conifer;
-      text-shadow: 0 0 5px rgba(181, 232, 83, 0.4);
+      color: #fff;
+      border-bottom-color: #fff;
     }
   }
 }
