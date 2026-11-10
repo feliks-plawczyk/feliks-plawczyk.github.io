@@ -1,10 +1,10 @@
-vers la page # Applications
+# Applications
 
 Descriptions de mes applications (mobiles ou autres) et leurs politiques de confidentialité.
 
 ## Liste
 
 * **Compte-Gouttes** (application Android)
-  * [Politique de confidentialité](/compte-gouttes/privacy/privacy-policy.md)
+  * [Politique de confidentialité](../compte-gouttes/privacy/)
 
 [← Retour à l'accueil](../index.md)

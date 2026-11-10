@@ -1,6 +1,6 @@
 # feliks.github.io
 
-Blog personnel et pages d'applications, publiés avec Jekyll sur GitHub Pages : <https://feliks.github.io>
+Blog personnel et pages d'applications, publiés avec Jekyll sur GitHub Pages : <https://feliks-plawczyk.github.io/feliks.github.io/>
 
 ## Contenu
 
