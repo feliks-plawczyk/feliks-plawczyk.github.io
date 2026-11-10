@@ -23,9 +23,9 @@ Le site est alors disponible sur <http://localhost:4000>. Vérifiez le rendu ava
 
 ## Rédiger un article
 
-- Les articles sont écrits en français, au format Markdown, dans `docs/`.
+- Les articles sont écrits en français, au format Markdown, dans `docs/blog/`.
 - Le nom de fichier suit le format `AAAAMMJJ-sujet.md` (exemple : `20261109-vcs.md`).
-- Les images vont dans `docs/images/posts/` et sont référencées en chemin relatif (`images/posts/mon-image.jpeg`).
+- Les images vont dans `docs/images/posts/` et sont référencées en chemin relatif (`../images/posts/mon-image.jpeg` depuis `docs/blog/`).
 - Ajoutez le lien de l'article dans la section « Pages » de `docs/index.md`.
 
 ## Commits

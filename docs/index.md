@@ -6,6 +6,9 @@ Bienvenue sur cet embryon de blog
 
 * Rien pour l'instant sauf...
 
-## Pages
-* [What is a version control system](20261109-vcs.md)
+## Blog
+* [What is a version control system](blog/20261109-vcs.md)
+
+## Applications
+* [Mes applications](applications/index.md)
 
