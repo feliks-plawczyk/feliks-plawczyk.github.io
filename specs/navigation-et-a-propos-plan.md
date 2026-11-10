@@ -61,17 +61,17 @@ T5 et T6 sont indépendantes l'une de l'autre et peuvent se faire dans n'importe
   - Vérification : après T0, `git status --short` ne montre ni `_site/` ni `Gemfile.lock`.
   - Fichiers : `.gitignore`.
 
-- [ ] **T2 : données et include de navigation**
+- [x] **T2 : données et include de navigation**
   - Acceptation : `docs/_data/navigation.yml` liste trois entrées (Blog `/blog/`, Applications `/applications/`, À propos `/about/`). `docs/_includes/nav.html` génère une liste de liens avec `relative_url` et `aria-current="page"` sur la page courante.
   - Vérification : build sans erreur Liquid.
   - Fichiers : `docs/_data/navigation.yml`, `docs/_includes/nav.html`.
 
-- [ ] **T3 : surcharger le layout**
+- [x] **T3 : surcharger le layout**
   - Acceptation : `docs/_layouts/default.html` est la copie du layout de `jekyll-theme-minimal`, avec uniquement `{% include nav.html %}` ajouté dans `<header>`. Toutes les pages affichent la navigation.
   - Vérification : `grep -c 'site-nav' _site/index.html _site/compte-gouttes/privacy/index.html` renvoie 1 pour chacune ; l'ancien affichage (titre, description) est inchangé.
   - Fichiers : `docs/_layouts/default.html`.
 
-- [ ] **T4 : styler la navigation**
+- [x] **T4 : styler la navigation**
   - Acceptation : `docs/assets/css/style.scss` importe le thème puis ajoute les règles de `.site-nav` : liste sans puces, lien actif visible (`[aria-current="page"]`), lisible dans la colonne latérale et à largeur mobile.
   - Vérification : build sans erreur SCSS ; contrôle visuel à ~1200 px et ~375 px avec `jekyll serve`.
   - Fichiers : `docs/assets/css/style.scss`.

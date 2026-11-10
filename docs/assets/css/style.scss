@@ -1,0 +1,64 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Navigation principale (voir _includes/nav.html).
+// Les sélecteurs sont préfixés par `header` pour passer devant `header ul`
+// du thème, qui positionne les listes en absolu sur petits écrans.
+header nav.site-nav {
+  margin: 0 0 20px;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: static;
+    height: auto;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  li {
+    display: block;
+    width: auto;
+    height: auto;
+    border: 0;
+    margin: 0 0 6px;
+    padding: 0;
+  }
+
+  a {
+    display: inline-block;
+    padding: 2px 0;
+    border-bottom: 2px solid transparent;
+    color: #444;
+    font-weight: 700;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: #111;
+      border-bottom-color: #bbb;
+    }
+
+    &[aria-current="page"] {
+      color: #111;
+      border-bottom-color: #111;
+    }
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  header nav.site-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 18px;
+  }
+
+  header nav.site-nav li {
+    margin: 0;
+  }
+}
