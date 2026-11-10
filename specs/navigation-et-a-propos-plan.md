@@ -1,7 +1,7 @@
 # Plan et tâches : navigation du site et page « À propos »
 
 Spec associée : [navigation-et-a-propos.md](navigation-et-a-propos.md)
-Statut : **en attente de validation avant implémentation**
+Statut : **terminé**
 
 Les questions ouvertes de la spec sont tranchées avec les valeurs par défaut :
 accueil avec les sections Blog et Applications, onglet « À propos » à `/about/`,
@@ -91,7 +91,7 @@ T5 et T6 sont indépendantes l'une de l'autre et peuvent se faire dans n'importe
   - Vérification : `grep -n "Sommaire\|Rien pour" _site/index.html` ne renvoie rien ; les liens répondent.
   - Fichiers : `docs/index.md`.
 
-- [ ] **T8 : vérification finale, push, contrôle en production**
+- [x] **T8 : vérification finale, push, contrôle en production**
   - Acceptation : tous les critères de réussite de la spec sont remplis.
   - Vérification : `git pull`, build propre, puis après push, `curl` renvoie 200 sur `/`, `/blog/`, `/applications/`, `/about/`, `/blog/20261109-vcs` et `/compte-gouttes/privacy/` (dont le contenu reste inchangé).
   - Fichiers : aucun nouveau.
