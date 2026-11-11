@@ -1,5 +1,40 @@
-remote_theme: pages-themes/architect@v0.2.0
+# Thème Scriptor, chargé depuis GitHub (épinglé sur un commit pour un rendu reproductible).
+# https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
+remote_theme: JustGoodThemes/Scriptor-Jekyll-Theme@8e4c148657d9d196eb8830075cd4318a17c78d57
+
 plugins:
   - jekyll-remote-theme
+  - jekyll-paginate
+
+lang: fr-FR
 title: Féliks's Homepage
 description: Lets see where this bring us !
+url: https://feliks-plawczyk.github.io
+baseurl: ""
+
+# Couleur d'accentuation (liens, bordure)
+accent_color: '#2d72d9'
+
+# Navigation : chaque entrée a un texte et une URL
+navigation:
+  - text: Accueil
+    url: /
+  - text: Applications
+    url: /applications/
+  - text: À propos
+    url: /about/
+  - text: Tags
+    url: /tags/
+
+footer:
+  content: "&copy; Féliks Plawczyk. Theme by [JustGoodThemes](https://www.justgoodthemes.com)."
+  has_social: true
+
+# Articles : /:title pour les nouveaux articles
+permalink: /:title
+paginate: 5
+paginate_path: '/page:num/'
+
+markdown: kramdown
+sass:
+  style: compressed

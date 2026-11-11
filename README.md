@@ -4,10 +4,12 @@ Blog personnel et pages d'applications, publiés avec Jekyll sur GitHub Pages : 
 
 ## Contenu
 
-- `docs/blog/` : articles de blog.
+- `docs/_posts/` : articles du blog, affichés sur la page d'accueil.
 - `docs/applications/` : descriptions d'applications et politiques de confidentialité.
-- `docs/index.md` : page d'accueil.
-- `docs/_config.yml` : configuration Jekyll (thème `architect`, chargé via `remote_theme`).
+- `docs/about/` : page « À propos ».
+- `docs/index.html` : accueil paginé (liste des articles), fourni par le thème.
+- `docs/_data/` : auteur (`author.json`) et liens sociaux (`social.json`).
+- `docs/_config.yml` : configuration Jekyll, navigation, et thème [Scriptor](https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme) chargé via `remote_theme`, épinglé sur un commit.
 
 Le site est publié depuis la branche `main`, dossier `/docs`.
 

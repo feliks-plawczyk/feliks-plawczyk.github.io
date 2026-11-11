@@ -23,10 +23,23 @@ Le site est alors disponible sur <http://localhost:4000>. Vérifiez le rendu ava
 
 ## Rédiger un article
 
-- Les articles sont écrits en français, au format Markdown, dans `docs/blog/`.
-- Le nom de fichier suit le format `AAAAMMJJ-sujet.md` (exemple : `20261109-vcs.md`).
-- Les images vont dans `docs/images/posts/` et sont référencées en chemin relatif (`../images/posts/mon-image.jpeg` depuis `docs/blog/`).
-- Ajoutez le lien de l'article dans la section « Pages » de `docs/index.md`.
+- Les articles sont écrits en français, au format Markdown, dans `docs/_posts/`.
+- Le nom de fichier suit le format `AAAA-MM-JJ-titre.md` (exemple : `2026-11-09-vcs.md`). La date de l'article vient du nom du fichier.
+- Chaque article commence par un en-tête :
+
+  ```yaml
+  ---
+  layout: post
+  title: "Titre de l'article"
+  description: "Une phrase de résumé."
+  tags: [mon-tag]
+  ---
+  ```
+
+  Ne mettez pas de titre `#` dans le texte : le thème affiche déjà le `title`.
+- Insérez `<!--more-->` après l'introduction pour n'afficher qu'un extrait sur la page d'accueil.
+- Les images vont dans `docs/images/posts/` et sont référencées depuis la racine du site (`/images/posts/mon-image.jpeg`).
+- Il n'y a rien à ajouter ailleurs : l'article apparaît automatiquement sur l'accueil et dans la page « Tags ».
 
 ## Commits
 
