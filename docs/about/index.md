@@ -1,4 +1,8 @@
-# À propos
+---
+layout: page
+title: À propos
+permalink: /about/
+---
 
 ## Qui suis-je
 
@@ -101,5 +105,3 @@ Stage de consultant en solutions cloud et IT : réponses aux appels d'offres et 
 * [Instagram](https://www.instagram.com/feliks.plawczyk/)
 * [Instagram – @felikslovesfood](https://www.instagram.com/felikslovesfood/)
 * [GitLab](https://gitlab.com/feliks.plawczyk)
-
-[← Retour à l'accueil](../index.md)

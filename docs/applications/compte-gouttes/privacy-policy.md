@@ -1,9 +1,8 @@
 ---
 title: Politique de confidentialité – Compte-Gouttes
+layout: page
 permalink: /compte-gouttes/privacy/
 ---
-
-# Politique de confidentialité – Compte-Gouttes
 
 🇫🇷 Français · [🇬🇧 English below](#privacy-policy--compte-gouttes-english)
 
