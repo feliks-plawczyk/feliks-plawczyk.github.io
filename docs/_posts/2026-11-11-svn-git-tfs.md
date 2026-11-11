@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "SVN, Git, TFS : lequel choisir ?"
+title: "SVN, Git, TFS : Késako ?"
 description: "Comparaison rapide de CVS, SVN, TFS (TFVC), Mercurial et Git, pour les débutants."
 tags: [version-control]
 ---
 Vous savez [à quoi sert un système de contrôle de version]({{ site.baseurl }}/blog/20261109-vcs) : garder l'historique d'un projet et travailler à plusieurs sans s'écraser. Reste une question concrète : **quel outil utiliser ?** En voici cinq, du plus ancien au plus répandu, et une recommandation à la fin.
+
+> Bien évidemment, en 2026 cette question est un "no brainer". Git correspond à 95% des besoins
+> On va donc sur git, mais c'est bien de remettre un peu de contexte !
 
 <!--more-->
 
@@ -64,3 +67,7 @@ Pour un nouveau projet, **choisissez Git**.
 4. **Pas d'impasse :** SVN, TFVC et Mercurial peuvent migrer vers Git, avec des outils existants comme `git svn` ou `git-tfs`.
 
 Quand garder un autre outil ? Si un projet existant fonctionne bien avec SVN ou TFVC et que personne n'a besoin de changer, il n'y a pas d'urgence. Pour tout le reste, commencez avec Git.
+
+---
+
+**Article suivant :** [Git, GitLab, GitHub : qui fait quoi ?](/git-gitlab-github)

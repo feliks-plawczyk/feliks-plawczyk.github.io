@@ -35,6 +35,10 @@ permalink: /:title
 paginate: 5
 paginate_path: '/page:num/'
 
+# Jekyll ignore les dossiers qui commencent par « _ » : on inclut explicitement les images.
+include:
+  - _images
+
 markdown: kramdown
 sass:
   style: compressed
