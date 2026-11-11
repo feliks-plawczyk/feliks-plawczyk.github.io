@@ -143,3 +143,7 @@ Actualisez la page de votre projet : vos deux fichiers y sont, et le `README` s'
 * **Des branches**, pour expérimenter sans toucher à la version principale.
 
 Pour comprendre d'où vient cet outil, lisez [L'histoire de Git]({{ site.baseurl }}/histoire-de-git).
+
+---
+
+**Article suivant :** [Pourquoi Git devient incontournable à l'ère de l'IA](/git-et-ia)
