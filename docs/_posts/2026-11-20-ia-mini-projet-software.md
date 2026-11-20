@@ -84,3 +84,7 @@ Le jour suivant, ou le jour où quelqu'un d'autre prend le relais, la première 
 ## Sources
 
 * [Dépôt GitHub `addyosmani/agent-skills`, d'Addy Osmani](https://github.com/addyosmani/agent-skills)
+
+---
+
+**Article suivant :** [README et CONTRIBUTING : deux fichiers à créer dès le premier jour](/readme-contributing)
