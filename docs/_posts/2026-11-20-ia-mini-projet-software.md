@@ -2,7 +2,6 @@
 layout: post
 title: "Chaque usage de l'IA est un mini projet software"
 description: "Spécifier, planifier, implémenter, vérifier, sauvegarder, puis laisser un fichier de reprise : ma méthode pour travailler avec l'IA."
-date: 2026-11-20 09:00:00
 tags: [version-control, ia]
 ---
 Aujourd'hui, je n'ouvre plus une conversation avec l'IA en tapant directement ma demande. J'aborde chaque usage comme un **mini projet software**, avec les mêmes étapes qu'un cycle de développement classique. Même pour rédiger un article ou préparer un document, cette discipline fait gagner du temps et évite de perdre le fil.
