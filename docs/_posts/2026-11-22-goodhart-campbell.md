@@ -20,7 +20,7 @@ La version que tout le monde cite est plus simple. Elle vient de l'anthropologue
 
 L'idée : un indicateur est utile parce qu'il **évolue en même temps** que ce qui nous intéresse vraiment. Dès qu'une récompense ou une sanction y est attachée, il devient possible, et tentant, d'agir sur le chiffre sans agir sur la réalité. Le lien entre les deux se casse.
 
-L'exemple le mieux documenté se passe à Hanoï en 1902. Pour lutter contre les rats, l'administration coloniale française verse une prime pour chaque queue de rat rapportée. Les queues affluent. Puis on voit courir dans la ville des rats bien vivants, sans queue : relâchés, ils peuvent se reproduire. Des élevages de rats apparaissent même aux abords de la ville (Mais ça c'est Campbell ; cf ci dessous). Le chiffre montait, le problème aussi.
+L'exemple le mieux documenté se passe à Hanoï en 1902. Pour lutter contre les rats, l'administration coloniale française verse une prime pour chaque queue de rat rapportée. Les queues affluent. Puis on voit courir dans la ville des rats bien vivants, sans queue : relâchés, ils peuvent se reproduire. Des élevages de rats apparaissent même aux abords de la ville (mais ça, c'est déjà Campbell : voir ci-dessous). Le chiffre montait, le problème aussi.
 
 ![Des queues de rat échangées contre des pièces, pendant que des rats sans queue s'éloignent](/_images/posts/goodhart-campbell_1_rats-hanoi.jpeg)
 
