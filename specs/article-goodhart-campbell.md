@@ -22,12 +22,11 @@ Article de vulgarisation : présenter la loi de Goodhart, la relier à la loi de
 
 ## Plan de l'article
 
-1. La loi de Goodhart.
-2. La loi de Campbell.
-3. Ce qui les relie.
-4. Et dans le pilotage de projet ?
-5. Des questions plutôt que des recettes.
-6. À retenir.
+1. La loi de Goodhart (exemple et image des rats de Hanoï).
+2. La loi de Campbell, avec le tableau comparatif et le point « pas de tricheurs ».
+3. Et dans le pilotage de projet ? (chute sur les indicateurs pastèques).
+4. Des questions plutôt que des recettes.
+5. À retenir.
 
 ## Sources
 

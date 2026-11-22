@@ -24,7 +24,7 @@ L'exemple le mieux documenté se passe à Hanoï en 1902. Pour lutter contre les
 
 ![Des queues de rat échangées contre des pièces, pendant que des rats sans queue s'éloignent](/_images/posts/goodhart-campbell_1_rats-hanoi.jpeg)
 
-## La loi de Campbell : l'activité se déforme
+## La loi de Campbell : l'activité se déforme aussi
 
 À la même époque, le psychologue américain Donald Campbell s'intéresse à l'évaluation des politiques publiques. En 1976, il écrit :
 
@@ -32,9 +32,7 @@ L'exemple le mieux documenté se passe à Hanoï en 1902. Pour lutter contre les
 
 Son exemple est celui de l'école. Un test mesure correctement le niveau des élèves tant que l'enseignement vise la compétence générale. Si la note au test devient le but, on se met à enseigner *pour le test* : la note ne dit plus grand-chose, et l'enseignement lui-même s'appauvrit.
 
-## Ce qui les relie
-
-Les deux lois décrivent le même mécanisme, mais Campbell va un cran plus loin.
+Campbell décrit donc le même mécanisme que Goodhart, mais va un cran plus loin :
 
 | | Ce qui se dégrade |
 |---|---|
@@ -49,7 +47,7 @@ Quelques situations que chacun reconnaîtra :
 
 * **Le nombre de tickets clos :** on découpe le travail en petits tickets, on clôt vite, on rouvre ailleurs.
 * **Le respect des jalons :** on livre à la date prévue quelque chose d'incomplet, et le reste devient « la phase 2 ».
-* **La météo projet :** personne ne veut annoncer du rouge. Le projet reste vert jusqu'à la veille de l'échéance : vert dehors, rouge dedans.
+* **La météo projet :** personne ne veut annoncer du rouge. Le projet reste vert jusqu'à la veille de l'échéance.
 * **L'adoption d'un outil d'IA :** on compte les comptes activés. Les comptes s'activent, mais cela ne dit pas si quelqu'un travaille mieux.
 
 Dans chaque cas, on retrouve Goodhart (le tableau de bord ne dit plus la vérité) puis Campbell (l'équipe s'organise autour du chiffre plutôt qu'autour du résultat).

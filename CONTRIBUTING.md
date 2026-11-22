@@ -38,7 +38,7 @@ Le site est alors disponible sur <http://localhost:4000>. Vérifiez le rendu ava
 
   Ne mettez pas de titre `#` dans le texte : le thème affiche déjà le `title`.
 - Insérez `<!--more-->` après l'introduction pour n'afficher qu'un extrait sur la page d'accueil.
-- Les images vont dans `docs/images/posts/` et sont référencées depuis la racine du site (`/images/posts/mon-image.jpeg`).
+- Les images vont dans `docs/_images/posts/` et sont référencées depuis la racine du site (`/_images/posts/mon-image.jpeg`).
 - Il n'y a rien à ajouter ailleurs : l'article apparaît automatiquement sur l'accueil et dans la page « Tags ».
 
 ## Commits
