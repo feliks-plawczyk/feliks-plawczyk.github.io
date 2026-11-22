@@ -41,6 +41,8 @@ Campbell décrit donc le même mécanisme que Goodhart, mais va un cran plus loi
 
 Point important : il n'est pas question de tricheurs. Les gens répondent de façon rationnelle à ce qu'on leur demande. Si l'on récompense un chiffre, on obtient ce chiffre.
 
+> 🌡️ **En résumé :** Goodhart explique pourquoi votre thermomètre cesse de donner la bonne température si vous mettez un briquet dessous ; Campbell explique pourquoi, si vous payez les gens en fonction de la température affichée, ils vont finir par brûler la maison pour faire monter le mercure.
+
 ## Et dans le pilotage de projet ?
 
 Quelques situations que chacun reconnaîtra :
