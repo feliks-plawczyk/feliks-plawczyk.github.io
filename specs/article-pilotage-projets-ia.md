@@ -1,6 +1,6 @@
 # Spec : article « Piloter un projet IA sans se peser avant »
 
-Statut : **brouillon** (à valider par Féliks).
+Statut : **validée** (confirmée par Féliks).
 
 ## Objectif
 
