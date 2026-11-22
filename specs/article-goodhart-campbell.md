@@ -1,6 +1,6 @@
 # Spec : article « Lois de Goodhart et de Campbell »
 
-Statut : **à valider** (hypothèses posées par Claude, premier jet déjà rédigé).
+Statut : **validée** (confirmée par Féliks).
 
 ## Objectif
 
