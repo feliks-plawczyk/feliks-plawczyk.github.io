@@ -20,7 +20,7 @@ La version que tout le monde cite est plus simple. Elle vient de l'anthropologue
 
 L'idée : un indicateur est utile parce qu'il **évolue en même temps** que ce qui nous intéresse vraiment. Dès qu'une récompense ou une sanction y est attachée, il devient possible, et tentant, d'agir sur le chiffre sans agir sur la réalité. Le lien entre les deux se casse.
 
-L'exemple le mieux documenté se passe à Hanoï en 1902. Pour lutter contre les rats, l'administration coloniale française verse une prime pour chaque queue de rat rapportée. Les queues affluent. Puis on voit courir dans la ville des rats bien vivants, sans queue : relâchés, ils peuvent se reproduire. Des élevages de rats apparaissent même aux abords de la ville. Le chiffre montait, le problème aussi.
+L'exemple le mieux documenté se passe à Hanoï en 1902. Pour lutter contre les rats, l'administration coloniale française verse une prime pour chaque queue de rat rapportée. Les queues affluent. Puis on voit courir dans la ville des rats bien vivants, sans queue : relâchés, ils peuvent se reproduire. Des élevages de rats apparaissent même aux abords de la ville (Mais ça c'est Campbell ; cf ci dessous). Le chiffre montait, le problème aussi.
 
 ![Des queues de rat échangées contre des pièces, pendant que des rats sans queue s'éloignent](/_images/posts/goodhart-campbell_1_rats-hanoi.jpeg)
 
@@ -41,7 +41,7 @@ Campbell décrit donc le même mécanisme que Goodhart, mais va un cran plus loi
 
 Point important : il n'est pas question de tricheurs. Les gens répondent de façon rationnelle à ce qu'on leur demande. Si l'on récompense un chiffre, on obtient ce chiffre.
 
-> 🌡️ **En résumé :** Goodhart explique pourquoi votre thermomètre cesse de donner la bonne température si vous mettez un briquet dessous ; Campbell explique pourquoi, si vous payez les gens en fonction de la température affichée, ils vont finir par brûler la maison pour faire monter le mercure.
+> **En résumé :** Goodhart explique pourquoi votre thermomètre cesse de donner la bonne température si vous mettez un briquet dessous ; Campbell explique pourquoi, si vous payez les gens en fonction de la température affichée, ils vont finir par brûler la maison pour faire monter le mercure.
 
 ## Et dans le pilotage de projet ?
 
@@ -54,7 +54,7 @@ Quelques situations que chacun reconnaîtra :
 
 Dans chaque cas, on retrouve Goodhart (le tableau de bord ne dit plus la vérité) puis Campbell (l'équipe s'organise autour du chiffre plutôt qu'autour du résultat).
 
-> 🍉 **Et c'est comme cela que l'on crée des indicateurs pastèques : verts à l'extérieur, mais bien rouges à l'intérieur.**
+> **Et c'est comme cela que l'on crée des indicateurs pastèques : verts à l'extérieur, mais bien rouges à l'intérieur.**
 
 ![Un tableau de bord de projet avec une pastèque verte dont une tranche révèle l'intérieur rouge](/_images/posts/goodhart-campbell_2_pasteque.jpeg)
 
